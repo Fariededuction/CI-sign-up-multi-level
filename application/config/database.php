@@ -73,12 +73,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-$tnsname = '(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 192.9.198.80)(PORT = 1521))
-        (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = REKLAME)))';
+$tnsname = '(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = )(PORT = ))
+        (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = )))';
 
 $db['default']['hostname'] = $tnsname;
-$db['default']['username'] = 'REKLAME';
-$db['default']['password'] = 'rek2012new';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
 $db['default']['database'] = '';
 $db['default']['dbdriver'] = 'oci8';
 $db['default']['dbprefix'] = '';
@@ -94,12 +94,12 @@ $db['default']['stricton'] = FALSE;
 
 
 
-$tnsname1 = '(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.21.31.35)(PORT = 1521))
-        (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = ELANG)))';
+$tnsname1 = '(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP)(HOST = )(PORT = ))
+        (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = )))';
 
 $db['PAJAKDAERAH']['hostname'] = $tnsname1;
-$db['PAJAKDAERAH']['username'] = 'PAJAKDAERAH';
-$db['PAJAKDAERAH']['password'] = 'Surabaya_2014';
+$db['PAJAKDAERAH']['username'] = '';
+$db['PAJAKDAERAH']['password'] = '';
 $db['PAJAKDAERAH']['database'] = '';
 $db['PAJAKDAERAH']['dbdriver'] = 'oci8';
 $db['PAJAKDAERAH']['dbprefix'] = '';
